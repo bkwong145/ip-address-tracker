@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.background-img {
+    position: absolute;
+    width: 100vw;
+    height: 30vh;
+}
+
+.content-container {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    z-index: 10000;
+}
+
+h1 {
+    color: white;
+}
+
+.searchbar {
+    display: flex;
+    width: 30vw;
+}
+
+.searchbar-text-input {
+    width: 90%;
+    border: 0px;
+}
+
+.searchbar-btn {
+    width: 10%;
+    border: 0px;
+}
+
+.content-info-container {
+    display: flex;
+    background: red;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.content-info-container > div {
+    width: 25%;
+}
